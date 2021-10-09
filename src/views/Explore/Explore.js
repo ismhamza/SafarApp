@@ -10,8 +10,7 @@ import {
 } from 'react-native';
 import {TouchableIcon} from '../../components';
 
-import ListViewItem from '../../components/ListViewItem/ListViewItem';
-import {padding, themeColor} from '../../styles/Theme';
+import {padding} from '../../styles/Theme';
 import BasicStyle from '../../styles/BasicStyle';
 import {
   BackgroundImg,
@@ -38,13 +37,11 @@ class Explore extends React.Component {
   }
 
   render() {
-    const {navigation} = this.props;
-    const {showListView} = this.state;
     return (
       <ScrollView>
         <View style={styles.container}>
           {/* Top Card */}
-          <View style={styles.card}>
+          <View style={[styles.card, {marginTop: 10}]}>
             {/* Location */}
             <View style={styles.header}>
               <View style={styles.headerLeft}>

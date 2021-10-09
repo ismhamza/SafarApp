@@ -4,8 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {HomeTabs} from './src/navigations';
 
-import {IconCustom} from './src/components';
-import {padding, themeColor} from './src/styles/Theme';
+import {themeColor} from './src/styles/Theme';
 import BasicStyle from './src/styles/BasicStyle';
 import {Downloads} from './src/views';
 

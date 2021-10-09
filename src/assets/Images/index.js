@@ -20,6 +20,11 @@ import User1 from './user1.png';
 import User2 from './user2.png';
 import MoreIcon from './more.png';
 import BackgroundImg from './back.png';
+import Calendar from './calendar.png';
+import DownIcon from './down.png';
+import User3 from './user3.png';
+import PhoneIcon from './phone.png';
+import ChatIcon from './chat.png';
 
 export {
   ExploreIcon,
@@ -44,4 +49,9 @@ export {
   User2,
   MoreIcon,
   BackgroundImg,
+  Calendar,
+  DownIcon,
+  User3,
+  ChatIcon,
+  PhoneIcon,
 };
