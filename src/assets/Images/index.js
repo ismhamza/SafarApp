@@ -18,6 +18,8 @@ import Star from './star-unselect.png';
 import VideoIcon from './video.png';
 import User1 from './user1.png';
 import User2 from './user2.png';
+import MoreIcon from './more.png';
+import BackgroundImg from './back.png';
 
 export {
   ExploreIcon,
@@ -40,4 +42,6 @@ export {
   VideoIcon,
   User1,
   User2,
+  MoreIcon,
+  BackgroundImg,
 };
