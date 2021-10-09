@@ -95,6 +95,9 @@ class Reviews extends React.Component {
               <View style={{position: 'absolute', top: -40, left: 20}}>
                 <TouchableIcon source={User4} width={60} height={60} />
               </View>
+              <Text style={{...BasicStyle.textBoldMd, color: '#000'}}>
+                Taylor Smith
+              </Text>
               <Text style={{...BasicStyle.textRegularXs, color: '#262626'}}>
                 After experiencing one of the most embarrassing moments of my
                 life, Glenville came to the rescue with his professionalism and
@@ -113,6 +116,9 @@ class Reviews extends React.Component {
               <View style={{position: 'absolute', top: -40, left: 20}}>
                 <TouchableIcon source={User2} width={60} height={60} />
               </View>
+              <Text style={{...BasicStyle.textBoldMd, color: '#000'}}>
+                Karen Green
+              </Text>
               <Text style={{...BasicStyle.textRegularXs, color: '#262626'}}>
                 After experiencing one of the most embarrassing moments of my
                 life, Glenville came to the rescue with his professionalism and
@@ -131,6 +137,9 @@ class Reviews extends React.Component {
               <View style={{position: 'absolute', top: -40, left: 20}}>
                 <TouchableIcon source={User3} width={60} height={60} />
               </View>
+              <Text style={{...BasicStyle.textBoldMd, color: '#000'}}>
+                Jessica Smith
+              </Text>
               <Text style={{...BasicStyle.textRegularXs, color: '#262626'}}>
                 After experiencing one of the most embarrassing moments of my
                 life, Glenville came to the rescue with his professionalism and

@@ -58,7 +58,7 @@ class Guidance extends React.Component {
                 }}>
                 <TouchableIcon source={User3} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
-                  <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
+                  <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
                     Jessica Smith
                   </Text>
                   <Text
@@ -154,7 +154,7 @@ class Guidance extends React.Component {
                 }}>
                 <TouchableIcon source={User4} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
-                  <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
+                  <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
                     Tylor Smith
                   </Text>
                   <Text
@@ -250,8 +250,8 @@ class Guidance extends React.Component {
                 }}>
                 <TouchableIcon source={User2} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
-                  <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
-                    Karen
+                  <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
+                    Karen Green
                   </Text>
                   <Text
                     style={{
@@ -346,7 +346,7 @@ class Guidance extends React.Component {
                 }}>
                 <TouchableIcon source={User1} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
-                  <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
+                  <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
                     Judy Rachel
                   </Text>
                   <Text
@@ -442,7 +442,7 @@ class Guidance extends React.Component {
                 }}>
                 <TouchableIcon source={User3} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
-                  <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
+                  <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
                     Jessica Smith
                   </Text>
                   <Text
