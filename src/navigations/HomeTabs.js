@@ -5,7 +5,6 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-import {Bookmark, Downloads, Home, More, Search} from '../views';
 import {IconCustom, TouchableIcon} from '../components';
 import {
   ExploreActiveIcon,
@@ -18,14 +17,14 @@ import {
   ReviewsActiveIcon,
   ReviewsIcon,
 } from '../assets/Images';
-import {View} from 'react-native';
+
 import {padding, themeColor} from '../styles/Theme';
 import BasicStyle from '../styles/BasicStyle';
 import {} from '../../src/assets/Images';
-import HomeStackScreen from './ExploreStackScreen';
-import {BookmarkStackScreen, MoreStackScreen, SearchStackScreen} from '.';
 import ExploreStackScreen from './ExploreStackScreen';
 import TravelStackScreen from './TravelStackScreen';
+import GuidanceStackScreen from './GuidanceStackScreen';
+import ReviewsStackScreen from './ReviewsStackScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -52,9 +51,9 @@ function HomeTabs({navigation}) {
         iconName = focused ? ExploreActiveIcon : ExploreIcon;
       } else if (route.name === 'Travel') {
         iconName = focused ? PinActiveIcon : PinIcon;
-      } else if (route.name === 'Bookmark') {
+      } else if (route.name === 'Guidance') {
         iconName = focused ? GuideActiveIcon : GuideIcon;
-      } else if (route.name === 'More') {
+      } else if (route.name === 'Reviews') {
         iconName = focused ? ReviewsActiveIcon : ReviewsIcon;
       }
 
@@ -70,8 +69,8 @@ function HomeTabs({navigation}) {
       tabBarOptions={tabBarOptions}>
       <Tab.Screen name="Explore" component={ExploreStackScreen} />
       <Tab.Screen name="Travel" component={TravelStackScreen} />
-      <Tab.Screen name="Bookmark" component={BookmarkStackScreen} />
-      <Tab.Screen name="More" component={MoreStackScreen} />
+      <Tab.Screen name="Guidance" component={GuidanceStackScreen} />
+      <Tab.Screen name="Reviews" component={ReviewsStackScreen} />
     </Tab.Navigator>
   );
 }

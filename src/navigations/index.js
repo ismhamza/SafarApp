@@ -1,13 +1,13 @@
 import HomeTabs from './HomeTabs';
-import SearchStackScreen from './TravelStackScreen';
-import HomeStackScreen from './ExploreStackScreen';
-import BookmarkStackScreen from './BookmarkStackScreen';
-import MoreStackScreen from './MoreStackScreen';
+import TravelStackScreen from './TravelStackScreen';
+import ExploreStackScreen from './ExploreStackScreen';
+import GuidanceStackScreen from './GuidanceStackScreen';
+import ReviewsStackScreen from './ReviewsStackScreen';
 
 export {
   HomeTabs,
-  SearchStackScreen,
-  BookmarkStackScreen,
-  MoreStackScreen,
-  HomeStackScreen,
+  TravelStackScreen,
+  GuidanceStackScreen,
+  ReviewsStackScreen,
+  ExploreStackScreen,
 };

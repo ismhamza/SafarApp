@@ -5,7 +5,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-import {Bookmark, Downloads, Explore, Home, More, Search} from '../views';
+import {Explore} from '../views';
 import {IconCustom, TouchableIcon} from '../components';
 import {FileIcon} from '../assets/Images';
 import {View} from 'react-native';
