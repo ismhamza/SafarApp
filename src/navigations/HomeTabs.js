@@ -34,7 +34,7 @@ function HomeTabs({navigation}) {
       paddingVertical: padding.xs,
     },
     style: {
-      height: 65,
+      height: 55,
     },
     labelStyle: {
       ...BasicStyle.textRegularXs,

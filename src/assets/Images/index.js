@@ -25,6 +25,8 @@ import DownIcon from './down.png';
 import User3 from './user3.png';
 import PhoneIcon from './phone.png';
 import ChatIcon from './chat.png';
+import SearchIcon from './searchh.png';
+import User4 from './user4.png';
 
 export {
   ExploreIcon,
@@ -54,4 +56,6 @@ export {
   User3,
   ChatIcon,
   PhoneIcon,
+  SearchIcon,
+  User4,
 };

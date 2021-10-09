@@ -1,5 +1,5 @@
 export const themeColor = {
-  primary: '#288474',
+  primary: '#0B7DFD',
   primaryBg: '#37534E',
   secondary: '#E1D9AC',
 

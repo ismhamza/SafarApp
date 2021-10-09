@@ -7,7 +7,14 @@ import {
   TouchableOpacity,
   ScrollView,
 } from 'react-native';
-import {ChatIcon, PhoneIcon, User3} from '../../assets/Images';
+import {
+  ChatIcon,
+  PhoneIcon,
+  User1,
+  User2,
+  User3,
+  User4,
+} from '../../assets/Images';
 import {TouchableIcon} from '../../components';
 import BasicStyle from '../../styles/BasicStyle';
 import {padding} from '../../styles/Theme';
@@ -145,10 +152,10 @@ class Guidance extends React.Component {
                   ...BasicStyle.alignItemsCenter,
                   ...BasicStyle.justifyContentBetween,
                 }}>
-                <TouchableIcon source={User3} width={50} height={50} />
+                <TouchableIcon source={User4} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
-                    Jessica Smith
+                    Tylor Smith
                   </Text>
                   <Text
                     style={{
@@ -175,7 +182,7 @@ class Guidance extends React.Component {
                           ...BasicStyle.textRegularSm,
                           color: '#1e1e1e',
                         }}>
-                        Skardu
+                        Kashmir
                       </Text>
                     </View>
                     <View
@@ -241,10 +248,10 @@ class Guidance extends React.Component {
                   ...BasicStyle.alignItemsCenter,
                   ...BasicStyle.justifyContentBetween,
                 }}>
-                <TouchableIcon source={User3} width={50} height={50} />
+                <TouchableIcon source={User2} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
-                    Jessica Smith
+                    Karen
                   </Text>
                   <Text
                     style={{
@@ -271,7 +278,7 @@ class Guidance extends React.Component {
                           ...BasicStyle.textRegularSm,
                           color: '#1e1e1e',
                         }}>
-                        Skardu
+                        Islamabad
                       </Text>
                     </View>
                     <View
@@ -337,10 +344,10 @@ class Guidance extends React.Component {
                   ...BasicStyle.alignItemsCenter,
                   ...BasicStyle.justifyContentBetween,
                 }}>
-                <TouchableIcon source={User3} width={50} height={50} />
+                <TouchableIcon source={User1} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textRegularXs, lineHeight: 15}}>
-                    Jessica Smith
+                    Judy Rachel
                   </Text>
                   <Text
                     style={{
@@ -367,7 +374,7 @@ class Guidance extends React.Component {
                           ...BasicStyle.textRegularSm,
                           color: '#1e1e1e',
                         }}>
-                        Skardu
+                        Karachi
                       </Text>
                     </View>
                     <View
@@ -386,7 +393,7 @@ class Guidance extends React.Component {
                           ...BasicStyle.textRegularSm,
                           color: '#1e1e1e',
                         }}>
-                        Swat
+                        Neelum Valley
                       </Text>
                     </View>
                   </View>
