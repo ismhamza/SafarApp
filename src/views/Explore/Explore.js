@@ -6,6 +6,7 @@ import {
   StyleSheet,
   ScrollView,
   ImageBackground,
+  Button,
 } from 'react-native';
 import {TouchableIcon} from '../../components';
 
@@ -17,16 +18,18 @@ import {
   CameraIcon,
   CommentIcon,
   FilterIcon,
+  LaggageIcon,
   LikeIcon,
   LocationIcon,
   MoreIcon,
   Star,
+  StarActiveIcon,
   StarGrayIcon,
   User1,
   User2,
   VideoIcon,
 } from '../../assets/Images';
-import {TextInput} from 'react-native-gesture-handler';
+import {TextInput, TouchableOpacity} from 'react-native-gesture-handler';
 
 class Explore extends React.Component {
   constructor(props) {
@@ -132,7 +135,7 @@ class Explore extends React.Component {
               }}>
               <Text
                 style={{
-                  ...BasicStyle.textRegularSm,
+                  ...BasicStyle.textBoldSm,
                   color: '#0B7DFD',
                   marginRight: 5,
                 }}>
@@ -141,7 +144,7 @@ class Explore extends React.Component {
               <Text
                 style={{
                   ...BasicStyle.textRegularSm,
-                  color: '#484848;',
+                  color: '#484848',
                 }}>
                 What people Share{' '}
               </Text>
@@ -264,6 +267,115 @@ class Explore extends React.Component {
               </View>
             </View>
           </View>
+          {/* ==========================================================Middle Card======================================================== */}
+
+          {/* Travelling Gear List */}
+          <View
+            style={{
+              ...BasicStyle.flexDirectionRow,
+              ...BasicStyle.justifyContentBetween,
+              marginVertical: 20,
+              marginHorizontal: 5,
+            }}>
+            <View
+              style={{
+                ...BasicStyle.flexDirectionRow,
+              }}>
+              <Text
+                style={{
+                  ...BasicStyle.textBoldSm,
+                  color: '#0B7DFD',
+                  marginRight: 5,
+                }}>
+                Travelling
+              </Text>
+              <Text
+                style={{
+                  ...BasicStyle.textRegularSm,
+                  color: '#484848',
+                }}>
+                Gears
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={{
+                  ...BasicStyle.textBoldSm,
+                  color: '#0B7DFD',
+                }}>
+                View all
+              </Text>
+            </View>
+          </View>
+
+          {/* Travelling Gear Card */}
+          <View style={styles.card}>
+            {/* Location */}
+            <View style={styles.header}>
+              <View style={styles.headerLeft}>
+                <View
+                  style={{
+                    backgroundColor: '#DBEBFC',
+                    height: 60,
+                    width: 60,
+                    ...BasicStyle.alignItemsCenter,
+                  }}>
+                  <TouchableIcon source={LaggageIcon} width={60} height={60} />
+                </View>
+                <View style={{marginLeft: 20}}>
+                  <Text style={{...BasicStyle.textBoldXs}}>Spectra 8w</Text>
+                  <Text style={{...BasicStyle.textRegularXs}}>
+                    75cm/29in - Red
+                  </Text>
+                  <View style={{...BasicStyle.flexDirectionRow, marginTop: 5}}>
+                    <TouchableIcon
+                      source={StarActiveIcon}
+                      width={10}
+                      height={10}
+                    />
+                    <TouchableIcon
+                      source={StarActiveIcon}
+                      width={10}
+                      height={10}
+                    />
+                    <TouchableIcon
+                      source={StarActiveIcon}
+                      width={10}
+                      height={10}
+                    />
+                    <TouchableIcon
+                      source={StarActiveIcon}
+                      width={10}
+                      height={10}
+                    />
+                    <TouchableIcon
+                      source={StarGrayIcon}
+                      width={10}
+                      height={10}
+                    />
+                  </View>
+                </View>
+              </View>
+              <View>
+                <Text style={{...BasicStyle.textBoldSm}}>RS 12,234</Text>
+                <TouchableOpacity
+                  style={{
+                    backgroundColor: '#0B7DFD',
+                    borderRadius: 10,
+                    height: 25,
+                    width: 84,
+                    ...BasicStyle.alignItemsCenter,
+                    ...BasicStyle.justifyContentCenter,
+                  }}>
+                  <Text style={{...BasicStyle.textRegularXs, color: '#fff'}}>
+                    Buy Now
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+
+          {/* ===============================Travelling Gear Card========================= */}
         </View>
       </ScrollView>
     );
