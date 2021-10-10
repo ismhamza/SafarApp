@@ -27,8 +27,17 @@ import PhoneIcon from './phone.png';
 import ChatIcon from './chat.png';
 import SearchIcon from './searchh.png';
 import User4 from './user4.png';
+import JacketIcon from './jacket.jpg';
+import GlassesIcon from './glasses.jpg';
+import BurnerIcon from './burner.jpg';
+import SelfieIcon from './selfie.jpg';
+import ShoesIcon from './shoes.jpg';
 
 export {
+  GlassesIcon,
+  BurnerIcon,
+  SelfieIcon,
+  ShoesIcon,
   ExploreIcon,
   ExploreActiveIcon,
   PinIcon,
@@ -58,4 +67,5 @@ export {
   PhoneIcon,
   SearchIcon,
   User4,
+  JacketIcon,
 };

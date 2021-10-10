@@ -6,7 +6,7 @@ import {HomeTabs} from './src/navigations';
 
 import {themeColor} from './src/styles/Theme';
 import BasicStyle from './src/styles/BasicStyle';
-import {Downloads} from './src/views';
+import {TravellingGearListing} from './src/views';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -21,19 +21,17 @@ function App() {
           component={HomeTabs}
         />
         <Stack.Screen
-          name="Downloads"
-          component={Downloads}
+          name="TravellingGearListing"
+          component={TravellingGearListing}
           options={{
-            title: 'Downloads',
+            title: 'Travelling Gear Store',
             headerStyle: {
-              backgroundColor: themeColor.primaryBg,
+              backgroundColor: themeColor.white,
               height: 70,
-              borderBottomLeftRadius: 12,
-              borderBottomRightRadius: 12,
             },
-            headerTintColor: themeColor.secondary,
+            headerTintColor: '#000',
             headerTitleStyle: {
-              ...BasicStyle.textBoldXxxl,
+              ...BasicStyle.textBoldXl,
             },
           }}
         />

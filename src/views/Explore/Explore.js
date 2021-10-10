@@ -37,6 +37,7 @@ class Explore extends React.Component {
   }
 
   render() {
+    const {navigation} = this.props;
     return (
       <ScrollView>
         <View style={styles.container}>
@@ -294,7 +295,8 @@ class Explore extends React.Component {
                 Gears
               </Text>
             </View>
-            <View>
+            <TouchableOpacity
+              onPress={() => navigation.navigate('TravellingGearListing')}>
               <Text
                 style={{
                   ...BasicStyle.textBoldSm,
@@ -302,7 +304,7 @@ class Explore extends React.Component {
                 }}>
                 View all
               </Text>
-            </View>
+            </TouchableOpacity>
           </View>
 
           {/* Travelling Gear Card */}
