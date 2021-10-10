@@ -59,7 +59,7 @@ class Guidance extends React.Component {
                 <TouchableIcon source={User3} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
-                    Jessica Smith
+                    Aisha Baig
                   </Text>
                   <Text
                     style={{
@@ -155,7 +155,7 @@ class Guidance extends React.Component {
                 <TouchableIcon source={User4} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
-                    Tylor Smith
+                    Muhammad Basit
                   </Text>
                   <Text
                     style={{
@@ -251,7 +251,7 @@ class Guidance extends React.Component {
                 <TouchableIcon source={User2} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
-                    Karen Green
+                    Hadiqa Kilaani
                   </Text>
                   <Text
                     style={{
@@ -347,7 +347,7 @@ class Guidance extends React.Component {
                 <TouchableIcon source={User1} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
-                    Judy Rachel
+                    Khadija Mehmood
                   </Text>
                   <Text
                     style={{
@@ -443,7 +443,7 @@ class Guidance extends React.Component {
                 <TouchableIcon source={User3} width={50} height={50} />
                 <View style={{marginLeft: 20}}>
                   <Text style={{...BasicStyle.textBoldSm, lineHeight: 18}}>
-                    Jessica Smith
+                    Aisha Baig
                   </Text>
                   <Text
                     style={{

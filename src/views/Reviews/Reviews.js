@@ -96,7 +96,7 @@ class Reviews extends React.Component {
                 <TouchableIcon source={User4} width={60} height={60} />
               </View>
               <Text style={{...BasicStyle.textBoldMd, color: '#000'}}>
-                Taylor Smith
+                Muhammad Basit
               </Text>
               <Text style={{...BasicStyle.textRegularXs, color: '#262626'}}>
                 After experiencing one of the most embarrassing moments of my
@@ -117,7 +117,7 @@ class Reviews extends React.Component {
                 <TouchableIcon source={User2} width={60} height={60} />
               </View>
               <Text style={{...BasicStyle.textBoldMd, color: '#000'}}>
-                Karen Green
+                Hadiqa Kilaani
               </Text>
               <Text style={{...BasicStyle.textRegularXs, color: '#262626'}}>
                 After experiencing one of the most embarrassing moments of my
@@ -138,7 +138,7 @@ class Reviews extends React.Component {
                 <TouchableIcon source={User3} width={60} height={60} />
               </View>
               <Text style={{...BasicStyle.textBoldMd, color: '#000'}}>
-                Jessica Smith
+                Aisha Baig
               </Text>
               <Text style={{...BasicStyle.textRegularXs, color: '#262626'}}>
                 After experiencing one of the most embarrassing moments of my
