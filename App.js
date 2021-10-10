@@ -1,7 +1,9 @@
 import * as React from 'react';
+import {useEffect} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import SplashScreen from 'react-native-splash-screen';
 import {HomeTabs} from './src/navigations';
 
 import {themeColor} from './src/styles/Theme';
@@ -12,6 +14,9 @@ const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
 function App() {
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
   return (
     <NavigationContainer>
       <Stack.Navigator>

@@ -48,7 +48,7 @@ class Explore extends React.Component {
               <View style={styles.headerLeft}>
                 <TouchableIcon source={LocationIcon} width={14} height={14} />
                 <Text style={{marginLeft: 5, ...BasicStyle.textRegularSm}}>
-                  Landungsari, Malang
+                  Arang kel, Kashmir
                 </Text>
               </View>
               <TouchableIcon source={FilterIcon} width={16} height={16} />
@@ -174,7 +174,7 @@ class Explore extends React.Component {
                   <TouchableIcon source={User2} width={40} height={40} />
                 </View>
                 <Text style={{marginLeft: 5, ...BasicStyle.textRegularSm}}>
-                  Sansa Indira
+                  Sufia Khan
                 </Text>
               </View>
               <TouchableIcon source={MoreIcon} width={25} height={25} />
